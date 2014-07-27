@@ -1,8 +1,6 @@
 <launch>
     <node pkg="tf" type="static_transform_publisher" name="ptu_camera_broadcaster" args="0.0385 0 0 0 0 0 ptu_attachment camera_link 50" />
-    <node pkg="tf" type="static_transform_publisher" name="ptu_base_link_broadcaster" args="0.115 0 1.31 0 0 0 base_link ptu 50" />
-    <!-- 1.16 -->
-
+    <node pkg="tf" type="static_transform_publisher" name="ptu_base_link_broadcaster" args="0.115 0 1.16 0 0 0 base_link ptu 50" />
 
     <include file="$(find lm_pantilt)/launch/PTUTF.launch"/>
     <include file="$(find pointcloud_saver)/launch/PointCloudSaver.launch"/>
