@@ -4,3 +4,6 @@
 [submodule "wall_scanner"]
 	path = wall_scanner
 	url = https://github.com/H017/wall_scanner.git
+[submodule "lm_pantilt"]
+	path = lm_pantilt
+	url = https://github.com/H017/lm_pantilt.git
