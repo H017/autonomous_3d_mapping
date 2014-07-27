@@ -1,0 +1,6 @@
+[submodule "pointcloud_saver"]
+	path = pointcloud_saver
+	url = https://github.com/H017/pointcloud_saver.git
+[submodule "wall_scanner"]
+	path = wall_scanner
+	url = https://github.com/H017/wall_scanner.git
