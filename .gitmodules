@@ -7,3 +7,6 @@
 [submodule "lm_pantilt"]
 	path = lm_pantilt
 	url = https://github.com/H017/lm_pantilt.git
+[submodule "mapping_tools"]
+	path = mapping_tools
+	url = https://github.com/H017/mapping_tools.git
